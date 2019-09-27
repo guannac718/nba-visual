@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import nba from 'nba';
 import * as d3 from 'd3';
 import { hexbin } from 'd3-hexbin';
@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 
 window.d3_hexbin = {hexbin : hexbin};
 
-export class ShotChart extends Component {
+export class ShotChart extends React.Component {
     static propTypes = {
         playerId: PropTypes.number.isRequired,
     }
@@ -32,11 +32,10 @@ export class ShotChart extends Component {
         });
     }
 
+
     render() {
         return (
-            <div>
-
-            </div>
+            <div id="shot-chart"></div>
         );
     }
 }
