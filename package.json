@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.23.4",
+    "d3": "latest",
+    "d3-hexbin": "latest",
     "d3-shotchart": "0.0.2",
+    "lodash": "^4.17.15",
     "nba": "^4.8.0",
+    "prop-types": "latest",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2",
-    "prop-types": "latest",
-    "d3-hexbin": "latest",
-    "d3": "latest"
+    "react-scripts": "3.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
