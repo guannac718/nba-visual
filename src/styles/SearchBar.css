@@ -1,0 +1,18 @@
+.search-bar {
+    width: 750px;
+}
+
+.player-option {
+    display: flex;
+    align-items: center;
+}
+
+.player-option-image {
+    height: 30px;
+}
+
+.player-option-label {
+    font-size: 15px;
+    margin-left: 20px;
+
+}

@@ -3,6 +3,7 @@ import '../styles/App.css';
 
 import { TopNavBar } from "./TopNavBar"
 import { Main } from "./Main"
+import { SearchBar } from "./SearchBar";
 
 function App() {
   return (
